@@ -60,7 +60,6 @@ html {
 }
 
 body {
-  max-width: 42em;
   margin: 0 auto;
 }
 
@@ -240,6 +239,19 @@ a:hover, a:focus {
   height: 56px;
   border-radius: 100%;
   margin-right: 16px;
+}
+
+.c-article__header, .x-article__body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.c-article__header {
+  padding: 24px 24px 0;
+}
+
+.c-article__body {
+  padding: 0 24px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
